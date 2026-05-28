@@ -166,7 +166,7 @@ class TaxiFleetSystem {
         println()
         println("Подсказка: Enter - оставить без изменений")
 
-        val plate = readOrKeep("Госномер [${old.plate}]: ",old.plate)
+        val plate = readOrKeep("Госномер [${old.plate}]: ", old.plate)
         val brand = readOrKeep("Марка [${old.brand}]: ", old.brand)
         val driver = readOrKeep("Водитель [${old.driver}]: ", old.driver)
         val mileage = readIntOrKeep("Пробег [${old.mileage}]: ", old.mileage, min = 0)
